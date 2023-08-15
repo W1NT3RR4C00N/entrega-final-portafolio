@@ -233,6 +233,38 @@
   
     .al-medio{
         @include flex-al-medio-column;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    
+        &-scroll{
+            display: flex;
+            margin-bottom: 20px;
+        }
+    
+        &-scroll{
+            img{
+                width: 70%;
+            }
+        }
+    
+        &{
+            img{
+                margin-right: 2rem; 
+            }
+        }
+    
+        &-foto{
+            @include flex-al-medio-column;
+            gap: 1rem;
+        }
+    }
+
+}
+
+@media (max-width: 578px) {
+  
+    .al-medio-intro{
+        @include flex-al-medio-column;
     
         &-scroll{
             display: flex;

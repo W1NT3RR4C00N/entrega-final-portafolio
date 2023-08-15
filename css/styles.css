@@ -515,6 +515,8 @@ body {
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
   }
   .al-medio-scroll {
     display: flex;
@@ -527,6 +529,33 @@ body {
     margin-right: 2rem;
   }
   .al-medio-foto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    gap: 1rem;
+  }
+}
+@media (max-width: 578px) {
+  .al-medio-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .al-medio-intro-scroll {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .al-medio-intro-scroll img {
+    width: 70%;
+  }
+  .al-medio-intro img {
+    margin-right: 2rem;
+  }
+  .al-medio-intro-foto {
     display: flex;
     flex-direction: column;
     justify-content: center;
