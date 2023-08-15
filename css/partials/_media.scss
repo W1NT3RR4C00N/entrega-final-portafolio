@@ -233,6 +233,8 @@
   
     .al-medio{
         @include flex-al-medio-column;
+        padding-left: 3rem;
+        padding-right: 3rem;
         margin-left: 2rem;
         margin-right: 2rem;
     
