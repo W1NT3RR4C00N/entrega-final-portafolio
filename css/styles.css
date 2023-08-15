@@ -515,8 +515,8 @@ body {
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
   .al-medio-scroll {
     display: flex;
