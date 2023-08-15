@@ -1,0 +1,66 @@
+$grisPrincipal: #b2b2b2;
+$blancoPrincipal: #ffffff;
+$colorScroll: #525050;
+
+@mixin grilla-contenedora{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; 
+    height: auto;
+}
+
+@mixin grilla-contenedora-mobile{
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr; 
+    height: auto;
+}
+
+
+@mixin codigo-sticky{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; 
+    height: auto;
+}
+
+@mixin flex-al-medio{
+    display: flex;
+    flex-direction: row;
+    justify-content: start; 
+    align-items: start; 
+}
+
+@mixin flex-al-medio-boton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 1rem;
+}
+
+@mixin flex-al-medio-sticky{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center; 
+}
+
+@mixin flex-al-medio-principio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: start; 
+}
+
+@mixin flex-al-medio-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    gap: 1rem;
+}
+
+@mixin condiciones-adicionales{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
