@@ -631,7 +631,7 @@ body {
 }
 @media (max-width: 800px) {
   .lineaExperiencia {
-    width: 90%;
+    width: 100%;
     border: none;
     height: 2px;
     background-color: #b2b2b2;
@@ -639,7 +639,7 @@ body {
 }
 @media (max-width: 578px) {
   .lineaExperiencia {
-    width: 90%;
+    width: 100%;
     border: none;
     height: 2px;
     background-color: #b2b2b2;
