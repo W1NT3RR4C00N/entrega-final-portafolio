@@ -233,8 +233,8 @@
   
     .al-medio{
         @include flex-al-medio-column;
-        margin-left: 4rem;
-        margin-right: 4rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
     
         &-scroll{
             display: flex;
