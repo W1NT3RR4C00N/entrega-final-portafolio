@@ -538,6 +538,12 @@ body {
   }
 }
 @media (max-width: 578px) {
+  .espacio-mobile {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+@media (max-width: 578px) {
   .al-medio-intro {
     display: flex;
     flex-direction: column;
