@@ -127,6 +127,14 @@
     }
 }
 
+@media (max-width: 578px) {
+    .grilla-2{
+        @include grilla-contenedora-mobile;
+        margin-bottom: 10px;
+        text-decoration: none;
+    }
+}
+
 @media (max-width: 800px) {
     .grilla-sticky{
         @include codigo-sticky;

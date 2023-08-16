@@ -51,6 +51,54 @@ body{
     }
 }
 
+.grilla-2{
+    @include grilla-contenedora-2;
+    text-decoration: none;
+    padding-bottom: 40px;
+
+    &-entrada-index{
+        @include grilla-contenedora;
+        text-decoration: none;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+
+    &-codigo{
+        @include codigo-sticky;
+        text-decoration: none;
+        padding-bottom: 40px;
+    }
+
+    &-codigo {
+        div{
+            gap: 1rem;
+        }
+    }
+
+    &-sticky{
+        @include codigo-sticky;
+        margin-bottom: 10px;
+        text-decoration: none;
+        position: sticky;
+        top: 0px;
+        width: 100%;
+        margin-top: 1rem;
+
+        .hover{
+            transition: 0.3s;
+
+            &:hover{
+                transform: translateY(-3px);
+                color: rgb(99, 197, 53);
+            }
+        }  
+    }
+
+    &-espacio{
+        padding-bottom: 1rem; 
+    }
+}
+
 .al-medio{
     @include flex-al-medio;
 

@@ -8,6 +8,12 @@ $colorScroll: #525050;
     height: auto;
 }
 
+@mixin grilla-contenedora-2{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; 
+    height: auto;
+}
+
 @mixin grilla-contenedora-mobile{
     display: grid;
     grid-template-columns: 1fr 4fr 1fr; 
@@ -17,7 +23,7 @@ $colorScroll: #525050;
 
 @mixin codigo-sticky{
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr; 
+    grid-template-columns: 1fr 4fr 1fr; 
     height: auto;
 }
 

@@ -154,7 +154,7 @@ body {
 }
 .grilla-codigo {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 1fr 4fr 1fr;
   height: auto;
   text-decoration: none;
   padding-bottom: 40px;
@@ -164,7 +164,7 @@ body {
 }
 .grilla-sticky {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 1fr 4fr 1fr;
   height: auto;
   margin-bottom: 10px;
   text-decoration: none;
@@ -181,6 +181,53 @@ body {
   color: rgb(99, 197, 53);
 }
 .grilla-espacio {
+  padding-bottom: 1rem;
+}
+
+.grilla-2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  height: auto;
+  text-decoration: none;
+  padding-bottom: 40px;
+}
+.grilla-2-entrada-index {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  height: auto;
+  text-decoration: none;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.grilla-2-codigo {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  height: auto;
+  text-decoration: none;
+  padding-bottom: 40px;
+}
+.grilla-2-codigo div {
+  gap: 1rem;
+}
+.grilla-2-sticky {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  height: auto;
+  margin-bottom: 10px;
+  text-decoration: none;
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  margin-top: 1rem;
+}
+.grilla-2-sticky .hover {
+  transition: 0.3s;
+}
+.grilla-2-sticky .hover:hover {
+  transform: translateY(-3px);
+  color: rgb(99, 197, 53);
+}
+.grilla-2-espacio {
   padding-bottom: 1rem;
 }
 
@@ -426,7 +473,7 @@ body {
 @media (max-width: 800px) {
   .grilla {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 4fr 1fr;
     height: auto;
     margin-bottom: 10px;
     text-decoration: none;
@@ -441,10 +488,19 @@ body {
     text-decoration: none;
   }
 }
+@media (max-width: 578px) {
+  .grilla-2 {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    height: auto;
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+}
 @media (max-width: 800px) {
   .grilla-sticky {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 4fr 1fr;
     height: auto;
     margin-bottom: 30px;
     text-decoration: none;
