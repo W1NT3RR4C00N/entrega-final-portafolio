@@ -139,14 +139,14 @@ body {
 
 .grilla {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 1fr 4fr 1fr;
   height: auto;
   text-decoration: none;
   padding-bottom: 40px;
 }
 .grilla-entrada-index {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 1fr 4fr 1fr;
   height: auto;
   text-decoration: none;
   margin-top: 5rem;
@@ -299,7 +299,7 @@ body {
 
 .grilla-trabajo {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 1fr 4fr 1fr;
   height: auto;
   padding-bottom: 40px;
 }

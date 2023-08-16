@@ -4,7 +4,7 @@ $colorScroll: #525050;
 
 @mixin grilla-contenedora{
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr; 
+    grid-template-columns: 1fr 4fr 1fr; 
     height: auto;
 }
 
