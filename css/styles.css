@@ -307,6 +307,31 @@ body {
   padding-bottom: 1rem;
 }
 
+.al-medio-intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+}
+.al-medio-intro-scroll {
+  display: flex;
+  margin-bottom: 20px;
+}
+.al-medio-intro-scroll img {
+  width: 70%;
+}
+.al-medio-intro img {
+  margin-right: 2rem;
+}
+.al-medio-intro-foto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  gap: 1rem;
+}
+
 /* Fin estilos Grid */
 /* Comienzo media query */
 @media (max-width: 1100px) {
